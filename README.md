@@ -1,100 +1,48 @@
 # Deloitte_DataAnalytics_Simuation-Forage
-# Daikibo Gender Pay Equity Analysis
 
-## Overview
-
-Daikibo Industrials initiated an internal investigation following employee complaints regarding gender pay inequality.
-
-The Forensic Tech team developed an algorithm that generated an **Equality Score** (ranging from -100 to +100) to quantify pay balance across job roles and factories.
-
-The objective of this project was to:
-
-- Classify equality scores into meaningful categories
-- Identify potentially discriminatory pay patterns
-- Visualize results using Excel and Tableau dashboards
-
-This project was completed as part of a Forage Virtual Job Simulation
+This repository contains projects completed as part of the Deloitte Australia Data Analytics Virtual Experience on Forage.
 
 ---
 
-## Business Problem
+## Task 1: Factory Downtime Analysis (Tableau)
 
-Pay inequality can negatively impact employee morale, company reputation, and legal compliance.
+Objective:
+Identify which factory experienced the most machine downtime and determine which machines contributed most to that downtime.
 
-Daikibo required:
+Tools:
+- Tableau
+- JSON telemetry data
+- Data aggregation and calculated fields
 
-- A structured classification system for equality scores
-- Clear identification of high-risk roles and factories
-- A visual dashboard to support leadership decision-making
-
----
-
-## Dataset
-
-The dataset contains:
-
-- Factory
-- Job Role
-- Equality Score (-100 to +100)
-
-Each Equality Score represents the degree of gender pay imbalance for a specific role at a specific factory.
+Key Finding:
+The Seiko factory recorded the highest total downtime. Within this factory, the Laser Welder machine contributed the most downtime.
 
 ---
 
-## Methodology
+### Task 2: Gender Pay Equity Classification (Excel)
 
-### 1. Equality Classification Logic
+Objective:
+Classify equality scores into structured categories to identify potential pay discrimination severity.
 
-A new column, **Equality Class**, was created based on score thresholds:
+Tools:
+- Excel
+- Conditional logic (nested IF statements)
+- Business rule implementation
 
-- Fair: -10 to +10  
-- Unfair: -20 to -11 and 11 to 20  
-- Highly Discriminative: less than -20 or greater than 20  
-
-This classification enables structured severity analysis of pay inequality.
-
-### 2. Data Transformation (Excel)
-
-- Applied conditional logic using nested IF statements
-- Categorized equality levels
-- Prepared dataset for visualization
-
-### 3. Dashboard Development (Tableau)
-
-An interactive dashboard was built to:
-
-- Visualize distribution of equality classes
-- Identify factories with multiple discriminatory roles
-- Compare severity across job roles
-- Highlight high-risk areas for HR intervention
-
----
-
-## Key Insights
-
-- Certain job roles exhibit highly discriminative equality scores.
-- Some factories show clusters of unfair classifications.
-- Visualization reveals structural patterns not immediately visible in raw data.
-
-These insights can help Daikibo prioritize audits and corrective actions.
-
----
-
-## Tools Used
-
-- Microsoft Excel (data transformation and classification logic)
-- Tableau (interactive dashboard visualization)
+Key Outcome:
+Roles were categorized into Fair, Unfair, and Highly Discriminative classifications to support HR decision-making.
 
 ---
 
 ## Skills Demonstrated
 
+- Data aggregation and grouping
+- Dashboard design and interactivity
+- Root cause analysis
 - Business rule implementation
-- Data classification logic
 - HR analytics
-- Dashboard design and visualization
+- Operational analytics
 - Insight communication
-- Data-driven decision support
 
 ---
 
