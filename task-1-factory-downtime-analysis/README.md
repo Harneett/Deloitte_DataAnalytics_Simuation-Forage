@@ -61,4 +61,4 @@ These findings allow management to prioritize maintenance and investigate high-r
 
 ## Dashboard Screenshot
 
-![Factory Downtime Dashboard](dashboard_screenshot.png)
+![Factory Downtime Dashboard](Dashboard 1.png)
